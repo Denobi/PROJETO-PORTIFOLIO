@@ -1,0 +1,732 @@
+/*MONTSERRAT*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+/*POPPINS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(../img/bg.png) top right no-repeat;
+    background-size: cover;
+    
+}
+.top{
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vh;
+    padding-top: 5vh;
+    width: auto;
+}
+.top-bar{
+    color: #fff;
+    margin-right: 56vh;
+    
+    
+}
+.top-bar .top-title{
+    color: #fff;
+    width: 250px;
+}
+.top-bar .top-title h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.top-bar .top-title span{
+    color: rgb(230, 165, 25);
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-top: 30vh;
+}
+.top-bar .top-title h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+.social .icons{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: #474040;
+    color: #fff;
+    padding: 10px;
+    margin-left: 1%;
+}
+.social .icons i{
+    top: 5px;
+    font-size: 22px;
+    line-height: 5rem;
+    text-align: center;
+    color:#fff;
+}
+.top .top-imgs{
+    float: right;
+}
+.top-imgs img{
+    width: 480px;
+    float: right;
+    margin-right: 20vh;
+    /* padding-left: 500vh; */
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #0E0F29;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+/*--------CONTEUDO CSS -------*/
+.conteudos{
+    width: 100%;
+}
+.conteudos .about{
+    /* background: #ac9015; */
+    /* background: #FFD523; */
+    background: rgb(230, 165, 25);
+    width: 90%;
+    height: 1050px;
+    display: block; 
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+.about .about-text{
+    margin: 20px;
+    display: flex; 
+    flex-direction: column;
+    border-bottom: 20px;
+    justify-content: space-around;
+    
+}
+.about-about{
+    display: flex;
+    height: 320px;
+    margin-bottom: 50px;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.about-about .about-me{
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(#2C394B,#2C396b);
+    border-left:300px;
+    left: auto;
+    right: auto;
+    
+}
+.about-me .me-title{
+    font-size: 44px;
+    color: #FF4C29;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.about-me p{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+.about-me img
+{
+    width: 280px;
+    border-radius: 50%;
+    float: left ;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    margin-right: 5vh;
+}
+.about-comp{
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex ;  
+    justify-content: space-around;
+    margin-bottom:1%;
+    flex-wrap: wrap;
+    width: 80%;
+    /* margin-left: 80px; */
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+.about-comp .about-tech{
+    /* padding-top: ; */align-items: center;
+    border-top: 15px;
+    margin-bottom: 3%;
+    height: 200px;
+    width: 230px;
+    background: #2C394B;
+    border-left: 3%;
+    right: auto;
+    left: auto;
+    
+    
+    
+}
+.about-tech .me-title2{
+    color: #FF4C29;
+    font-size: 30px;
+    padding-left: 5px;
+    text-align: center;
+    padding-top: 2%;
+    
+    
+}
+.about-tech .abot-ling{
+    padding-top: 2px;
+    padding-left: 9px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/*===== conhecimentos =====*/
+.about-sup{
+    padding: 20px;
+    text-align: center;
+    right: auto;
+    left: auto;
+    
+    
+}
+.about-sup .sup-title{
+    font-size: 52px;
+    color: #FF4C29;
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: .3rem;
+    right: auto;
+    left: auto;
+    
+}
+.about-sup .about-icon{
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    padding-left : 15px;
+}
+/*===== Icons tech =====*/
+.about-tech .icons-tech{
+    color: #FF4C29;
+    font-size: 6rem;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-left:30px ;  
+    /* border-radius: 30px ;
+    background-color: #fff; */
+}
+/*SLIDER*/
+.portifolio{
+    width: 100%;
+    height: 110vh;
+    background:linear-gradient( rgba(44,57,75, 0.2),rgba(72, 94, 123, 0.2));
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8%;
+    
+}
+.portifolio .title-port{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.portifolio .title-port .port-h1{
+    font-size: 62px;
+    color: #FF4C29;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1rem;
+   
+
+    
+}
+.portifolio .title-port p{
+    font-size: 22px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+ 
+}
+.portifolio .row{
+    width: 95%;
+    right: auto;
+    left: auto;
+    margin-left: 12%;
+}
+.portifolio .card{
+    width: 430px;
+    height: 460px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../img/bg.png);
+   
+}
+
+.portifolio .card .bar{
+    width: 100%;
+    height: 17%;
+
+    padding-bottom: 5px;
+    background-color: rgba(255,76,41,0.5);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 2%;
+    
+}
+.card .bar h5{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.3rem;
+    padding-left: 3%;
+}
+.card .bar p{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 3%;
+}
+.card .bar img{
+    height: 170px;margin-top:50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2%;
+    background: url(http://denobi.tech/img/Inova_og.png)top right no-repeat;
+    background-size: cover;
+    
+}
+/*------ CONTATO ------*/
+.contact-me{
+    width: 90%;
+    height: 930px;
+    /* background:rgb(230, 165, 25); */
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+  
+}
+.contact-me{
+    background: url(../img/bg.png);
+}
+.contact-me .contact-title{
+    top: 105px;
+    margin-bottom: 2%;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(#2C394B,#2C396b);
+
+    
+}
+.contact-me .encap-cont{
+    background: rgb(230, 165, 25);
+    height: 730px;
+    width: 38.5%;
+    float: right;
+}
+.contact-title .contact-h1{
+    color: rgb(230, 165, 25);
+    font-size: 8em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contact-me .contact-map{
+    float: right;
+    margin-right: 1%;
+    height: 715px;
+    background: #2C394B;
+    padding: 0.5%; margin-top: 0.5%;
+}
+.contact-map iframe{
+    width:600px;  height:450px;
+}
+.contact-map .icons{
+    font-size: 112px;
+    color: #FF4C29;
+    text-align: center;
+
+    margin-left: 10%;
+
+    /* justify-content: space-around; */
+}
+.contact-map .contact-h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    text-decoration: none;
+    /* border: rgb(230, 165, 25) solid ; */
+    border-top:5px rgb(230, 165, 25) solid ;
+    border-bottom:5px rgb(230, 165, 25) solid ;
+}
+.contact-me .contact-desc{
+    /* margin-top: 2%; */
+    width: 57%;
+    height: 200px;
+    margin-left: 1%;
+ 
+}
+.contact-desc .title-cont{
+    font-size: 52px;
+    color: #FF4C29;
+    margin-left: 10px;
+    margin-top: 0.5%;
+}
+.contact-desc  .desc-cont{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100;
+    word-wrap: break-word;
+    margin-left: 1%;
+}
+.contact-me .contact-dados{
+    margin: 2%;
+}
+.contact-dados .desc{
+    color: #fff;
+    font-size: 45px;
+
+
+}
+.contact-dados .inputs{
+    border: none;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    margin-top: 0.3%;
+    width: 457px;
+    background: #2C396b;
+    color: #fff;
+}
+.contact-me .contact-social{
+    background: #2C394B;
+    height: 350px;
+    width: 55%;
+    margin-left: 30px;
+    margin-top: 0.7%;
+    display: flex;
+}
+.contact-me .btn-sub{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+.contact-me .contact-sub{
+    font-size: 132px;
+    border: none;
+    background: none;
+    color: #FF4C29;
+    margin-right: 150px;
+    margin-top: 100px ;
+}
+.contact-sub:hover{
+    transform: scale(0.8);
+    color: #FF4C39;
+}
+
+/* ---------- RODAPE --------- */
+.conteudos .footer{
+    height: 283px;
+    margin-top: 15%;
+    background: linear-gradient(#2C394B,#2C396b);
+}
+.footer img{
+    height: 30%;
+    justify-content: center; 
+    margin-left: 47%; 
+    display: flex;
+    margin-top: 0.5%;
+    filter: saturate(0%);
+}
+.footer .footer-h1{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 3%;
+}
+.footer p{
+    color: #fff;
+    font-size: 19px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.footer .footer-prof{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+}
+.footer .footer-icons{
+    font-size: 30px;
+    color: #FF4C29;
+     margin-top: 0.5%;
+    margin-right:1% ;
+}
+
+/*======= MOBILE ADP ======= */
+@media only screen and (max-width: 999px){
+    /*------ AREA SUPERIOR -------*/
+    .top{
+    
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+     
+        padding-top: 5vh;
+        width: auto;
+    }
+    .top-bar{
+        margin-left: 06%;
+    }
+    .top-bar .top-title{
+        width: 150px;
+    }
+    .top-bar .top-title h1{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .top-bar .top-title span{
+        color: rgb(230, 165, 25);
+        font-size: 35px;
+        text-transform: uppercase;
+        padding-top: 30vh;
+    }
+    .top-bar .top-title h3{
+        font-size: 10px;
+        color: aliceblue;
+    }
+    .top-imgs img{
+        width: 280px;
+        float: right;
+        padding-right: 20vh;
+        margin-right: 20%;
+        /* padding-left: 500vh; */
+    }
+    /* ------- AREA SOBRE MIM -------*/
+
+    .about-about{
+        display: flex;
+        height: 320px;
+        margin-bottom: 20px;
+        justify-content: center;
+        width: 90%;
+        margin-left: 2.5%;
+    }
+    
+    .about-about .about-me{
+        height: 250px;
+        width: 95%;
+        background: linear-gradient(#2C394B,#2C396b);
+        border-left:300px;
+        left: auto;
+        right: auto;
+        
+    }
+    .about-me .me-title{
+        font-size: 29px;
+        color: #FF4C29;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+    .about-me p{
+        color: #fff;
+        font-size: 15px;
+        padding-right: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
+        word-wrap: break-word;
+    }
+    .about-me img
+    {
+        width: 180px;
+        border-radius: 50%;
+        float: left ;
+        margin-left: 5vh;
+        margin-top: 3vh;
+        margin-right: 5vh;
+    }
+    /*----------- CONHECIMENTOS ---------*/
+    .conteudos .about{
+        /* background: #ac9015; */
+        /* background: #FFD523; */
+        background: rgb(230, 165, 25);
+        width: 85%;
+        height: 1080px;
+        display: block; 
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        
+    }
+    .about-comp .about-tech{
+        align-items: center;
+        border-top: 15px;
+        margin-bottom: 3%;
+        height: 150px;
+        width: 180px;
+        background: #2C394B;
+        border-left: 3%;
+        right: auto;
+        left: auto;
+        
+        
+        
+    }
+    .about-tech .me-title2{
+        color: #FF4C29;
+        font-size: 22px;
+        padding-left: 5px;
+        text-align: center;
+        padding-top: 2%;
+        
+        
+    }
+    .about-tech .abot-ling{
+        padding-top: 2px;
+        padding-left: 9px;
+        font-size: 15px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .about-tech .icons-tech{
+        color: #FF4C29;
+        font-size: 4rem;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-left:30px ;  
+        /* border-radius: 30px ;
+        background-color: #fff; */
+    }
+    /* ------------ PORTIFÓLIO ---------------- */
+    .portifolio{
+        width: 100%;
+        height: 90vh;
+        background:linear-gradient( rgba(44,57,75, 0.2),rgba(72, 94, 123, 0.2));
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 8%;
+        
+    }
+    .portifolio .card{
+        width: 230px;
+        height: 260px;
+        display: inline-block;
+        border-radius: 10px;
+        padding-top: 5px;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-image: url(../img/bg.png);
+       
+    }
+    .card .bar h5{
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.3rem;
+        padding-left: 3%;
+    }
+    .card .bar p{
+        font-size: 9px;
+        color: #fff;
+        padding-left: 3%;
+    }
+
+    .card .bar img{
+        height: 90px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 5%;
+        /* transform: scale(50%); */
+    }
+    /* --------------- CONTATO ------------------- */
+    .contact-me{
+        height: 90%;
+        width: 95%;
+    }
+    .contact-me .contact-title{
+        top: 105px;
+        margin-bottom: 2%;
+        height: 100px;
+        width: 100%;
+        background: linear-gradient(#2c394bd5,#2c396b9d);
+    
+    }    
+    .contact-title .contact-h1{
+        color: rgb(230, 165, 25);
+        font-size: 3em;
+        text-align: center;
+        padding-top: 3%;
+        /* padding-bottom: 10px; */
+    }
+    .contact-me .encap-cont{
+        display: none;
+    }
+    .contact-me .contact-desc{
+        /* margin-top: 2%; */
+        width: 87%;
+        height: 150px;
+        margin-left: 7%;
+     
+    }
+    .contact-desc .title-cont{
+        font-size: 42px;
+        color: #FF4C29;
+        margin-left: 10px;
+        margin-top: 0.5%;
+        text-align: center;
+    }
+    .contact-desc  .desc-cont{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 100;
+        word-wrap: break-word;
+        margin-left: 1%;
+    }
+}
